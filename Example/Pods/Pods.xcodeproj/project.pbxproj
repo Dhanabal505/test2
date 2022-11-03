@@ -17,6 +17,7 @@
 				179210FA921881722FBA1BB7B0C5D85E /* PBXTargetDependency */,
 			);
 			name = Test2;
+			productName = Test2;
 		};
 /* End PBXAggregateTarget section */
 
@@ -58,6 +59,7 @@
 		9C9B071E7F00175D672265FBD1CA68EA /* String-Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F00D111BC70612561E9143B71F4E995 /* String-Ext.swift */; };
 		A0587A0FCF9E08BEC681A8E5E13CFA17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 746F651D76928E1500B21B47AD5F2E3F /* Foundation.framework */; };
 		A3DF24D3C4DF26DDA3301CBDCBBD74DA /* QKMRZParser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B8F52E0A19AEC5F7AB799BB20F4549A /* QKMRZParser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB07449C2913CB8E00608EA1 /* Test2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB07449B2913CB8E00608EA1 /* Test2.swift */; };
 		AEB4D385A054641A31E36BA66B6FA6B5 /* QKMRZScanResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7DA52D1A7A7A5B765003785948B63D /* QKMRZScanResult.swift */; };
 		B06230586ADBF6DBF12DA854C7CE60E5 /* LuminanceThresholdFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C795BADCC4424BDD61829D33A81113 /* LuminanceThresholdFilter.swift */; };
 		B2DC14ED1063C6E2FF920273F32C2488 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 746F651D76928E1500B21B47AD5F2E3F /* Foundation.framework */; };
@@ -146,7 +148,7 @@
 		07D8D93A43CBF3076F067D67FAB13C9F /* SwiftyTesseract.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyTesseract.modulemap; sourceTree = "<group>"; };
 		0E7FD24080B058CC2610CA54D85CEDAA /* Pods-Test2_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Test2_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		13A63ADE91A13746AB7817214BBF1B90 /* QKMRZParser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QKMRZParser.release.xcconfig; sourceTree = "<group>"; };
-		1B139C2F486734CE85CCC826582315DF /* libtesseract.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = libtesseract.xcframework; path = SwiftyTesseract/libtesseract.xcframework; sourceTree = "<group>"; };
+		1B139C2F486734CE85CCC826582315DF /* libtesseract.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = libtesseract.xcframework; path = SwiftyTesseract/libtesseract.xcframework; sourceTree = "<group>"; };
 		1EA36D566C35A3C5BDCF7D22B242B11B /* QKMRZScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QKMRZScanner.release.xcconfig; sourceTree = "<group>"; };
 		2263406090657AD028F107F0929A3E99 /* CIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CIImage.swift; path = QKMRZScanner/Extensions/CIImage.swift; sourceTree = "<group>"; };
 		2750A8BC1A959F42D5F5EB957E4C6DDD /* ResultIteratorLevel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResultIteratorLevel.swift; path = SwiftyTesseract/SwiftyTesseract/Enums/ResultIteratorLevel.swift; sourceTree = "<group>"; };
@@ -179,7 +181,7 @@
 		8862611660FBCCDF6E11B092674EEB7B /* Test2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Test2.debug.xcconfig; sourceTree = "<group>"; };
 		8946581734C177DC271C9AC382DA6B11 /* Pods-Test2_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Test2_Example-frameworks.sh"; sourceTree = "<group>"; };
 		8961B1592F512DF663A0E875C23FC4DC /* QKMRZParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QKMRZParser.swift; path = QKMRZParser/QKMRZParser.swift; sourceTree = "<group>"; };
-		8A531D4646BAD86B61C374524CD3CE65 /* Pods-Test2_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Test2_Example"; path = Pods_Test2_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A531D4646BAD86B61C374524CD3CE65 /* Pods_Test2_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test2_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FDDDFD27BBEF4A851E1131E9121944C /* SwiftyTesseract-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyTesseract-prefix.pch"; sourceTree = "<group>"; };
 		91751892CDFFBBAC7EE4D61CB72EB1CA /* QKMRZParser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QKMRZParser-prefix.pch"; sourceTree = "<group>"; };
 		91D4AADDD23B97A0EF46B260C67CC9DA /* QKMRZScannerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QKMRZScannerView.swift; path = QKMRZScanner/QKMRZScannerView.swift; sourceTree = "<group>"; };
@@ -187,28 +189,29 @@
 		9469FE381CA4D19747580F1222E0F9F4 /* Pods-Test2_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Test2_Example.modulemap"; sourceTree = "<group>"; };
 		95EBEC44CE5E5FAF9AAF23172B927B4C /* TesseractVariableName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TesseractVariableName.swift; path = SwiftyTesseract/SwiftyTesseract/Enums/TesseractVariableName.swift; sourceTree = "<group>"; };
 		9A17C1AF46A09B94C15F050ACF1503A0 /* String+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Extensions.swift"; path = "SwiftyTesseract/SwiftyTesseract/Extensions/String+Extensions.swift"; sourceTree = "<group>"; };
-		9B41A761DCD5D5BEE2CBA7131603B023 /* tessdata */ = {isa = PBXFileReference; includeInIndex = 1; name = tessdata; path = "QKMRZScanner/Supporting Files/tessdata"; sourceTree = "<group>"; };
+		9B41A761DCD5D5BEE2CBA7131603B023 /* tessdata */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = tessdata; path = "QKMRZScanner/Supporting Files/tessdata"; sourceTree = "<group>"; };
 		9B8F52E0A19AEC5F7AB799BB20F4549A /* QKMRZParser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QKMRZParser-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E19832266D54E713161A75CF4C33EB0 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreImage.framework; sourceTree = DEVELOPER_DIR; };
 		A24BA60C48118F8AAAA60825D81ABD86 /* QKMRZParser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QKMRZParser.modulemap; sourceTree = "<group>"; };
 		A29D5CBF94C97B6E286EFEA069D2308C /* MRZField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MRZField.swift; path = QKMRZParser/MRZField.swift; sourceTree = "<group>"; };
 		A33B322B2CE106D651FABFBC2E9B6358 /* Pods-Test2_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Test2_Example-Info.plist"; sourceTree = "<group>"; };
 		A37FFDE7EB2CFD3EA72457334C8A0A25 /* QKMRZScanner */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QKMRZScanner; path = QKMRZScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5C795BADCC4424BDD61829D33A81113 /* LuminanceThresholdFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LuminanceThresholdFilter.swift; path = QKMRZScanner/LuminanceThresholdFilter.swift; sourceTree = "<group>"; };
+		AB07449B2913CB8E00608EA1 /* Test2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Test2.swift; path = Test2/Classes/Test2.swift; sourceTree = "<group>"; };
 		AD7DA52D1A7A7A5B765003785948B63D /* QKMRZScanResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QKMRZScanResult.swift; path = QKMRZScanner/QKMRZScanResult.swift; sourceTree = "<group>"; };
 		AE78897F5E87DBC1576A827F3E6AAD57 /* QKCutoutView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QKCutoutView.swift; path = QKMRZScanner/QKCutoutView.swift; sourceTree = "<group>"; };
 		B0E5EA02EE044B1C3B9D8AABD67EB23C /* SwiftyTesseract.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyTesseract.debug.xcconfig; sourceTree = "<group>"; };
 		B3D3DCB5BF653E50F6F4C751E278E3AE /* QKMRZScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QKMRZScanner-dummy.m"; sourceTree = "<group>"; };
-		BAC47392D0A8339C766098F684B1F78C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BAC47392D0A8339C766098F684B1F78C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BD625B43F328B7686BA752C61448F064 /* Pods-Test2_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Test2_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BE09AEA9DA02E69C1352FEE302A53BAE /* QKMRZScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QKMRZScanner.debug.xcconfig; sourceTree = "<group>"; };
 		BF78411DA3F63A07771C8A1539F96758 /* QKMRZScanner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QKMRZScanner-Info.plist"; sourceTree = "<group>"; };
 		C7BE204A74C63D7F076D90BDE3275501 /* CIContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CIContext.swift; path = QKMRZScanner/Extensions/CIContext.swift; sourceTree = "<group>"; };
-		CBA2120916B185F00444F9609F303904 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CBA2120916B185F00444F9609F303904 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CBA3058778A02BE66BD6F589305E7607 /* TD1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TD1.swift; path = QKMRZParser/Parsers/TD1.swift; sourceTree = "<group>"; };
 		CFC4F5B81BFD5FB28058CD11DED8566E /* SwiftyTesseract-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyTesseract-dummy.m"; sourceTree = "<group>"; };
-		D4B610518425057E02D23E203C6FBFF5 /* Test2.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Test2.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D4B610518425057E02D23E203C6FBFF5 /* Test2.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Test2.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D7DFA55505191535538DA7D002FA4EE3 /* RecognitionLanguage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecognitionLanguage.swift; path = SwiftyTesseract/SwiftyTesseract/Enums/RecognitionLanguage.swift; sourceTree = "<group>"; };
 		D8CB99516045CAA1E92F73ED0FC0F6E0 /* Pods-Test2_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Test2_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DB3F1A5FF64BDFA1966AB63FB3E96C93 /* BoundingBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BoundingBox.swift; path = SwiftyTesseract/SwiftyTesseract/Structs/BoundingBox.swift; sourceTree = "<group>"; };
@@ -304,7 +307,6 @@
 				4FA80DE377923FB3AC8A4909B82BF1D5 /* Resources */,
 				981E5FDC7EE0B4DD4A66DBCFDBB3216D /* Support Files */,
 			);
-			name = QKMRZScanner;
 			path = QKMRZScanner;
 			sourceTree = "<group>";
 		};
@@ -333,7 +335,6 @@
 				DEBFB66312A8D210CAC9DC4DA116B2EE /* TD3.swift */,
 				0CA647B219EC11AB9319B14A6BEB5B55 /* Support Files */,
 			);
-			name = QKMRZParser;
 			path = QKMRZParser;
 			sourceTree = "<group>";
 		};
@@ -366,7 +367,7 @@
 		8293C19CC595240B4C3EAB9D126FDDC5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8A531D4646BAD86B61C374524CD3CE65 /* Pods-Test2_Example */,
+				8A531D4646BAD86B61C374524CD3CE65 /* Pods_Test2_Example.framework */,
 				3B29E2CF43CE90075244B9EBAA6F5EF9 /* Pods-Test2_Tests */,
 				E551F26557EE13A98FB2F8D868D7ABF8 /* QKMRZParser */,
 				A37FFDE7EB2CFD3EA72457334C8A0A25 /* QKMRZScanner */,
@@ -393,7 +394,6 @@
 				B70DD5D8E07CB8AF67F1E069B59AB966 /* Frameworks */,
 				94A7A1DAD984CE277A9719B421D005FE /* Support Files */,
 			);
-			name = SwiftyTesseract;
 			path = SwiftyTesseract;
 			sourceTree = "<group>";
 		};
@@ -426,6 +426,7 @@
 		96A36244304BE3A6631225EC8D4813AC /* Test2 */ = {
 			isa = PBXGroup;
 			children = (
+				AB07449B2913CB8E00608EA1 /* Test2.swift */,
 				8BCA7D0E7FDF3D6106FC3EE68BC429D9 /* Pod */,
 				6A65AB8B6F7044F64B5DCF8CB0DBCAA2 /* Support Files */,
 			);
@@ -650,7 +651,7 @@
 			);
 			name = "Pods-Test2_Example";
 			productName = Pods_Test2_Example;
-			productReference = 8A531D4646BAD86B61C374524CD3CE65 /* Pods-Test2_Example */;
+			productReference = 8A531D4646BAD86B61C374524CD3CE65 /* Pods_Test2_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		84154FB2435C38A550AA20A6F707A87E /* Pods-Test2_Tests */ = {
@@ -680,6 +681,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					7D6982C308670D951676E500C4711D11 = {
+						LastSwiftMigration = 1310;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -793,6 +799,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB07449C2913CB8E00608EA1 /* Test2.swift in Sources */,
 				3DEAD50A7609DDB9D17DFF218F276D7D /* Pods-Test2_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1244,8 +1251,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -1304,6 +1310,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1326,6 +1333,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1354,6 +1363,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1376,6 +1386,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
