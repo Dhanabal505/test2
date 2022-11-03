@@ -1,0 +1,33 @@
+{
+  "name": "Test2",
+  "version": "0.1.0",
+  "summary": "Only for MRZ",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Dhanabal505/Test2",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Dhanabal505": "dhanabal.senthil@nissisoftwaresystems.com"
+  },
+  "source": {
+    "git": "https://github.com/Dhanabal505/Test2.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": "Test2/Classes/**/*",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "QKMRZParser": [
+
+    ],
+    "QKMRZScanner": [
+
+    ]
+  },
+  "swift_version": "5.0"
+}
